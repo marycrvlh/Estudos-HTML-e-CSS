@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Lucida sans', sans-serif;
+    text-align: center;
+}
+
+.titulo{
+     color: #831192;
+    font-size: 30px;
+    font-family: 'Lucida sans', sans-serif;
+    text-align: center;
+}
+
+.textoInfo{
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+
+}
+
+.logos{
+    display: block;
+    margin:0 auto;
+    float: center;
+    width: 200px;
+    height: auto;
+    padding: 0 20px;
+}
+
+header{
+    background-color: #b397be;
+    padding: 10px;
+    text-align: center;
+}
+
+nav{
+    padding: 10px;
+    text-align: center;
+}
+
+nav a{
+    color:black
+}
+nav a:hover{
+    color: #fdfdfd;
+}
+
+.tituloLista{
+    color: #ff00ff;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.ListaOrdenada, .ListaNaoOrdenada{
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    padding: 0 80px;
+    line-height: 1.5;
+}
+
+
+footer{
+    background-color: #b397be;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
