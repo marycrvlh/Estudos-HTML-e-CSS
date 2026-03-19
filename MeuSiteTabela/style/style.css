@@ -4,12 +4,25 @@
     box-sizing: border-box;
 }
 
+/* garante o footer no final */
+html, body{
+    height: 100%;
+}
+
+body{
+        display: flex;
+        flex-direction: column;
+}
+
 h1{
     color: #000000;
     font-size: 30px;
     font-family: 'Lucida sans', sans-serif;
     text-align: center;
+    margin-bottom: 10px;
 }
+
+/* configurações das classes */
 
 .titulo{
      color: #831192;
@@ -32,28 +45,19 @@ h1{
 .logos{
     display: block;
     margin:0 auto;
-    float: center;
+    float: left;
     width: 200px;
     height: auto;
     padding: 0 20px;
 }
 
-header{
-    background-color: #b397be;
-    padding: 10px;
-    text-align: center;
-}
-
-nav{
-    padding: 10px;
-    text-align: center;
-}
-
-nav a{
-    color:black
-}
-nav a:hover{
-    color: #fdfdfd;
+.logoIndex{
+    display: block;
+    margin:0 auto;
+    float: left;
+    width: 120px;
+    height: auto;
+    padding: 0 20px;
 }
 
 .tituloLista{
@@ -73,6 +77,26 @@ nav a:hover{
     margin-bottom: 10px;
     padding: 0 80px;
     line-height: 1.5;
+}
+
+/* outras configurações */
+
+header{
+    background-color: #b397be;
+    padding: 10px;
+    text-align: left;
+}
+
+nav{
+    padding: 10px;
+    text-align: center;
+}
+
+nav a{
+    color:black;
+}
+nav a:hover{
+    color: #fdfdfd;
 }
 
 
