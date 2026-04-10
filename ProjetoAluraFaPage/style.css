@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --fonte-principal: 'Inter';
+    --cor-principal: #167BF7;
+    --cor-secundaria: #FFFFFF;
+}
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+body{
+    background-color: black ;
+}
+
+.tituloPrincipal{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    text-align: left;
+}
+
+.textoConteudo{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    text-align: left;
+}
+
+.tituloDispositivos{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    text-align: center;
+}
+
+
+.botaoAzul{
+    color: #167BF7;
+}
+
+.ladoEsquerdo{
+    text-align: left;
+}
+
+.ladoDireito{
+    text-align: right;
+}
+
+img{
+    size: 20rem;
+    display: flex;
+}
+
+
+
+.logoFooter{
+    size: 20rem;
+    margin: 100px;
+}
+
+footer{
+    margin: auto;
+    padding: 10px;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    text-align: center;
+}
