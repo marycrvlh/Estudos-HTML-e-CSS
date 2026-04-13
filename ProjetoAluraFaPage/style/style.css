@@ -1,14 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); /*fonte Inter*/
+
+:root{
+    --fonte-principal: 'Inter', sans-serif;
+    --fonte-size-principal: 16px;
+    --botao-azul: #167BF7;
+    --botao-azul-efeito: #3c92fa;
+    --branco-principal: #FFFFFF;
+    --branco-secundario:#F9F9F9;
+    --cinza-secundario: #C0C0C0;
+    --cor-de-fundo:#00030C;
+}
+
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 
 body{
-    background-color: black;
-
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: var(--fonte-size-principal);
 }
 
-.containerTitulo{
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
+.container{
+    height: 100vh; /*vertical e horizontal*/
+    display: grid; /*colunas/blocos de conteúdo dentro da página*/
+}
+
+.containerPrincipal{
+    background-image: url("../image/Background.png")
+}
+
+.tituloPrincipal{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    text-align: left;
+}
+
+.textoConteudo{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    text-align: left;
+}
+
+.tituloDispositivos{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    text-align: center;
+}
+
+
+.containerBotao{
+    color: #167BF7;
+}
+
+.containerBotaoSecundario{
+    color: #00030C;
+}
+
+.ladoEsquerdo{
+    text-align: left;
+}
+
+.ladoDireito{
+    text-align: right;
+}
+
+img{
+    size: 20rem;
+    display: flex;
+}
+
+
+
+.logoFooter{
+    size: 20rem;
+    margin: 100px;
+}
+
+footer{
+    margin: auto;
+    padding: 10px;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    text-align: center;
 }
