@@ -1,0 +1,2 @@
+## Projeto Meu site feito durante um vídeo da Rafaella Ballerini
+Projeto simples, que busca por em prática os conhecimentos adquiridos durante um vídeo da Rafaella Ballerini, onde ela ensina a criar um site do zero utilizando HTML e CSS. O objetivo é aplicar as técnicas aprendidas para construir um site funcional e esteticamente agradável. O projeto inclui a estrutura básica do HTML, estilização com CSS e a implementação de elementos como cabeçalhos, parágrafos, imagens e links. 
