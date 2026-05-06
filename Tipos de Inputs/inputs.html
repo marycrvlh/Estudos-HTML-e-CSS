@@ -33,6 +33,12 @@
         <label> DATA E HORA: </label>
         <input type="datetime-local" placeholder="DD/MM/AAAA HH:MM:SS">
 
+        <label> HORA: </label>
+        <input type="time" placeholder="hh:mm:hhhh">
+
+        <label> MÊS:C</label>
+        <input type="month" placeholder="mm/aaaa">
+
         <label> COR: </label>
         <input type="color">
 
@@ -43,9 +49,24 @@
         <input type="radio" name="genero" value="M"> Masculino
         <input type="radio" name="genero" value="F"> Feminino
 
+        <label> EIXE UMA MENSAGEM:</label>
+        <textarea placeholder="Deixe a sua mensagem aqui..."></textarea>
 
-        <label> ARQUIVO: </label>
-        <input type="text">
+        <!-- Lista suspensa -->
+         <label> ESCOLHA A SUA CIDADE </label>
+         <select>
+            <option value="">Selecione</option>
+            <option value="opcao1"> Piracicaba </option>
+            <option value="opcao2"> Americana </option>
+            <option value="opcao3"> Campinas </option>
+        </select>
+
+        <!-- faixa de valores-->
+        <label> Faiza De Valores</label>
+        <input type="range" max="100" min="0" value="50">
+
+        <!-- botão de alerta -->
+        <input type="" onclick="alert('meu teste')" value="clique aqui"> 
 
         <div class="buttons">
             <input type="submit" value="Enviar">
