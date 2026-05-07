@@ -9,7 +9,7 @@ ul{
 }
 
 .botoes{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
     right: 0;
@@ -20,4 +20,9 @@ ul{
     align-items: center;
     justify-content: center;
     gap: 16px;
+}
+
+.botao{
+    border: none;
+    background-color: #000;
 }
