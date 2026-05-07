@@ -45,9 +45,9 @@ main .personagem .imagem{
     z-index: 1 ; /* controla que controla quem vem primeira, colocando as imagens em camadas*/
 }
 
-.nome-personagem{
+.conteudo .nome-personagem{
     color: #ffff;
-    font-size: 30px;
+    font-size: 48px;
     font-family: 'Secular One', sans-serif;
     font-weight: 400;
     margin-bottom: 20px;
