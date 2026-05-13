@@ -157,7 +157,7 @@ section h2{
 .preco{
     color: #00ff88;
     font-size: 30px;
-    padding: 25px;
+    margin-bottom: 20px;
     font-weight: 600;
 }
 
@@ -172,7 +172,8 @@ section h2{
     transition: 0.3s;
 }
 
-.card:hover{
+.card:hover,
+form button:hover{
     transform: translateY(-10px);
     border-color: #00ff88;  
 } 
@@ -201,4 +202,104 @@ section h2{
 .card button:hover{
     background-color: #ffff;
 
+}
+
+.galeria{
+    background-color: #0000;
+}
+
+.galeria h2{
+    font-size: 30px;
+    align-items: center;
+    color: #ffff;
+    text-align: center;
+}
+
+
+.imagens{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.foto{
+    display: flex;
+    height: 250px;
+    border-radius: 18px;
+    background-size: cover;
+    background-position: center;
+    align-items: end;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffff;
+    overflow: hidden;
+
+}
+
+.card-musculacao{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(../src/musculacao.avif);
+}
+
+.card-cardio{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(../src/cardio.avif);
+}
+
+.card-funcional{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(../src/funcional.avif);
+}
+
+
+
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #111;
+    padding: 30px;
+    border-radius: 18px;
+    border: 1px solid #222;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea{
+    height: 120px;
+    resize: none;
+}
+
+.resposta{
+text-align: center;
+font-size: 18px;
+margin-top: 20px;
+color: #00ff88;
+
+
+}
+
+button{
+    outline: none;
+    border: none;
+}
+
+.rodape{
+    background-color: #0000;
+    text-align: center;
+    padding: 30px;
+    color: #cccccc;
+    border-top: #00ff88 solid 1px;
 }
