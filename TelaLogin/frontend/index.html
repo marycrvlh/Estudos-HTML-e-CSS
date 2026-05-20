@@ -22,12 +22,13 @@
             </form>
         </div>
 
-        <div class="criar-conta">
-            <p> Não tem conta? <a href="#cadastro"> Clique aqui </a> </p>
-        </div>
+        <p class="criar-conta">
+            Não tem conta? <a href="#registro-form" id="show-cadastro"> Clique aqui </a>
+
+        </p>
     </section>
 
-    <section class="cadastro-container">
+    <section class="cadastro-container" id="registro-form" style="display: none">
         <h2 class="titulo"> Bem-Vindo! </h2>
         <p> Crie sua conta </p>
 
@@ -42,14 +43,12 @@
                 <label> Senha </label>
                 <input type="password" placeholder="Digite a sua senha">
 
-                <input type="checkbox"> Aceito os termos de uso
+                <input type="checkbox" required> <strong> Aceito que entrem em contato comigo por SMS e WhatsApp. </strong>
+                <p>  </p>
 
 
                 <button class="botao"> Cadastrar </button>
             </form>
-
-            
-
 
         </div>
 

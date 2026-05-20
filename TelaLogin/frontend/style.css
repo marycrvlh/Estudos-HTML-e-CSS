@@ -11,6 +11,7 @@ body{
 .login-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: #ffff;
     border-radius: 8px;
@@ -19,7 +20,7 @@ body{
     height: 25rem;
     padding: 2rem;
     margin-top: 12rem;
-    margin-left: 50rem;
+    margin-left: 45rem;
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
 }
 
@@ -54,15 +55,16 @@ input{
     padding: 10px;
     border-radius: 8px;
     border: solid 1px #cccc;
+    outline: none;
 }
 
 input[type="checkbox"]{
-    width: auto;
-    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
 }
 
 .botao{
-    background-color: rgb(14, 126, 255);
+    background-color: #3483fa;
     color: #ffff;
     border: none;
     border-radius: 8px;
@@ -74,11 +76,11 @@ input[type="checkbox"]{
 }
 
 .botao:hover{
-    background-color: rgb(85, 163, 252);
+    background-color: #5296fc;
     cursor: pointer;
 }
 
-.criar-conta p{
+.criar-conta{
     font-family: Arial, Helvetica, sans-serif ;
     font-size: 16px;
 }
@@ -87,6 +89,9 @@ input[type="checkbox"]{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.aparecer-tela{
+    overflow: hidden;
+}
 
 
 /* PARTE DE CADASTRO */
@@ -94,6 +99,7 @@ input[type="checkbox"]{
 .cadastro-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: #ffff;
     border-radius: 8px;
@@ -101,7 +107,7 @@ input[type="checkbox"]{
     height: 30rem;
     padding: 2rem;
     margin-top: 12rem;
-    margin-left: 45rem;
+    margin-left: 42rem;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
